@@ -1,0 +1,111 @@
+#first
+{
+    text-align: center;
+}
+#as
+{
+    color: red;
+}
+body
+{
+    background-color: rgb(252, 252, 252);
+}
+#form1
+{
+    margin: 50px 150px;
+    padding: 5px;
+    
+}
+#name 
+{   width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 200px;
+}
+#fname
+{   width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 250px;
+}
+#email 
+{
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 300px;
+}
+#dob
+{
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 250px;
+}
+#mobileno 
+{
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 270px;
+}
+#currentaddress 
+{
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 230px;
+    
+}
+#addline2 
+{
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 350px;
+}
+#city 
+{
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 350px;
+}#state 
+{
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 350px;
+}#zipcode
+{
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 350px;
+}
+#permanentadd
+{
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 350px;
+}
+#peraddline2
+{
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 350px;
+}
+#percity
+{
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 350px;
+}
+#pstate
+{
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 350px;
+}
+#pzipcode
+{
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 350px;
+}
+#next
+{
+    width: 100px;
+    height: 30px;
+    margin: 0px 0px 0px 450px;
+}

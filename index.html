@@ -1,0 +1,77 @@
+<html>
+    <title>Registration Form</title>
+    <head>
+        <script type="text/javascript" src="script/formscript.js"></script>
+        <link rel="stylesheet" href="style/formstyle.css">
+    </head>
+    <body>
+        <form id="form1">
+            <div id="first">
+                <h1>Submit Your Application</h1>
+            <p>for<b>.NET Developers(Freshers)</b></p>
+            </div>
+            <h1>Personal Information</h1>
+            <label for="name">Name as per ID proof</label><span id="as">*</span>
+            <input type="text" placeholder="Name" id="name">
+            <label id="namelabel" style="color: red; visibility:hidden; ">Name is Required</label><br><br>
+            
+            <label for="name">Father's Name</label><span id="as">*</span>
+            <input type="text" placeholder="Father's Name" id="fname">
+            <label id="fnamelabel" style="color: red; visibility:hidden; ">Last Name is Required</label><br><br>
+            
+            <label for="email">Email</label><span id="as">*</span>
+            <input type="text" placeholder="abcd@mail.com" id="email">
+            <label id="emaillabel" style="color: red; visibility:hidden; "> Email is Required</label><br><br>
+            
+            <label for="dob">Date of Birth</label><span id="as">*</span>
+            <input type="text" placeholder="01-01-2001" id="dob">
+            <label id="doblabel" style="color: red; visibility:hidden; ">Required</label><br><br>
+            
+            <label for="mobileno">Mobile no</label><span id="as">*</span>
+            <input type="text" placeholder="Mobile Number" id="mobileno" maxlength="10">
+            <label id="moblabel" style="color: red; visibility:hidden; "> Moblie is Required</label><br><br>
+            
+            <label for="currentaddress">Current Address</label> <span id="as">*</span>  
+            <input type="text" placeholder="Address Line 1" id="currentaddress" > 
+            <label id="add1label" style="color: red; visibility:hidden; "> Address is Required</label><br><br>
+            <input type="text" placeholder="Address Line 2" id="addline2" > 
+            <label id="add2label" style="color: red; visibility:hidden; "> Address is Required</label><br><br>
+            <input type="text" placeholder="City" id="city" >
+            <label id="citylabel" style="color: red; visibility:hidden; "> City is Required</label><br><br>
+            <select id="state" >
+                <option value="TamilNadu">Tamil Nadu</option>
+                <option value="Andra">Andra</option>
+                <option value="Kerala">Kerala</option>
+            </select><br><br>
+            <input type="text" placeholder="ZipCode" id="zipcode" maxlength="6">
+            <label id="ziplabel1" style="color: red; visibility:hidden; "> ZipCode is Required</label><br>
+            <br>
+            
+            <label for="permanentadd">Premanent Address</label><span id="as">*</span> 
+            <input type="checkbox" id="checkbox1" onchange="check()"><br>
+
+            <input type="text" placeholder="Address Line 1" id="permanentadd">
+            <label id="padd1label" style="color: red; visibility:hidden; "> Address is Required</label><br><br>
+            <input type="text" placeholder="Address Line 2" id="peraddline2">
+            <label id="padd2label" style="color: red; visibility:hidden; "> Address is Required</label><br><br>
+            <input type="text" placeholder="City" id="percity">
+            <label id="pcitylabel" style="color: red; visibility:hidden; "> City is Required</label><br><br>
+            <select id="pstate">
+                <option value="TamilNadu">Tamil Nadu</option>
+                <option value="Andra">Andra</option>
+                <option value="Kerala">Kerala</option>
+            </select><br><br>
+            <!-- <label for="pzipcode"></label><span id="as">*</span> -->
+            <input type="number" placeholder="ZipCode" id="pzipcode">
+            <label id="ziplabel" style="color: red; visibility:hidden; "> City is Required</label><br><br><br>
+            
+            
+            <p>Upload Profile Photo<span id="as">*</span> (JPG/PNG format only)</p>
+            <p>Please upload a photo of yourself. Your face should be clearly visible. Make sure the image size should not exceed 500kb</p><br>
+            <input type="file" placeholder="UPLOAD PHOTO" value="UPLOAD PHOTO" name="Upload Photo" id="photo">
+            <label id="ziplabel" style="color: red; visibility:hidden; "> Upload your profile photo</label><br><br><br><br>
+            <br>
+            <button onclick="validate()" type="button" id="next">Next</button>
+        </form>
+    </body>
+</html>
